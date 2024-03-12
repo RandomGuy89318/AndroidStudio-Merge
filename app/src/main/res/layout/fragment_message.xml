@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MessageFragment">
+
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#D30404"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Error Reloading Messages Please Reload"
+            android:textAllCaps="true"
+            android:textColor="#F2F2F2" />
+    </FrameLayout>
+</FrameLayout>
